@@ -2,9 +2,31 @@ import ProductItem from "./ProductItem";
 import classes from "./Products.module.css";
 
 const PRODUCTS = [
-  { id: "p1", price: 1000, title: "Product 1", description: "D1" },
-  { id: "p2", price: 2000, title: "Product 2", description: "D2" },
-  { id: "p3", price: 3000, title: "Product 3", description: "D3" },
+  { id: "p1", price: 1000, title: "Atomic Habits", description: "James Clear" },
+  {
+    id: "p2",
+    price: 2000,
+    title: "The Power of Habit",
+    description: "Charles Duhigg",
+  },
+  {
+    id: "p3",
+    price: 3000,
+    title: "The Art of Thinking Clearly",
+    description: "Rolf Dobelli",
+  },
+  {
+    id: "p4",
+    price: 4000,
+    title: "Mindset: Changing The Way You think To Fulfil Your Potential",
+    description: "Dr. Carol S. Dweck",
+  },
+  {
+    id: "p5",
+    price: 5000,
+    title: "Blink: The Power of Thinking Without Thinking",
+    description: "Malcolm Gladwell",
+  },
 ];
 
 const Products = (props) => {
